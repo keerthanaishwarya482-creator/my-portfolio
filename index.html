@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101411">
+  <meta name="description" content="Ishwarya — web development learner building thoughtful, responsive web experiences and practical digital concepts.">
+  <meta property="og:title" content="Ishwarya | Developer Portfolio">
+  <meta property="og:description" content="Web development learner · Responsive interfaces · Practical problem-solving">
+  <meta property="og:type" content="website">
+  <title>Ishwarya — Developer Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="scroll-progress" aria-hidden="true"><span id="scroll-progress-bar"></span></div>
+
+  <header class="site-header" id="top">
+    <nav class="nav-wrap container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Ishwarya home"><span class="brand-mark">i<span>.</span></span><span class="brand-name">ishwarya<span class="brand-role">/ learner</span></span></a>
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a class="nav-link active" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#skills">Skills</a></li>
+        <li><a class="nav-link" href="#work">Projects</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+        <li><button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light theme" title="Toggle theme"><svg class="theme-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"></path></svg></button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section" id="home">
+      <div class="hero-glow glow-one" aria-hidden="true"></div><div class="hero-glow glow-two" aria-hidden="true"></div>
+      <div class="container hero-layout">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="availability-dot"></span> FRESHER <span class="eyebrow-divider">/</span> OPEN TO OPPORTUNITIES</p>
+          <p class="hero-pretitle">Hello, I’m</p>
+          <h1>Ishwarya<span class="accent">.</span><br><span class="hero-title-line">I build for the web<span class="accent">.</span></span></h1>
+          <p class="hero-summary">I’m a web development learner exploring HTML, CSS, JavaScript, and the path toward full-stack development. I enjoy turning everyday problems into clear, useful, responsive digital experiences.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">Explore my work <span aria-hidden="true">↗</span></a>
+            <a class="button button-secondary" href="#contact">Let’s connect <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="hero-meta"><span class="meta-line"></span><span>Currently learning. Always improving.</span></div>
+        </div>
+
+        <div class="hero-art reveal reveal-delay" aria-label="A decorative portfolio code and budgeting dashboard illustration">
+          <div class="art-orbit orbit-a"></div><div class="art-orbit orbit-b"></div>
+          <div class="code-card glass-card">
+            <div class="code-card-head"><div class="window-dots"><i></i><i></i><i></i></div><span>about-me.js</span><span class="tiny-check">✓</span></div>
+            <div class="code-content" aria-hidden="true">
+              <p><span class="line-no">01</span><span class="syntax-purple">const</span> developer = {</p>
+              <p><span class="line-no">02</span>&nbsp;&nbsp;name: <span class="syntax-green">'Ishwarya'</span>,</p>
+              <p><span class="line-no">03</span>&nbsp;&nbsp;focus: <span class="syntax-green">'Web development'</span>,</p>
+              <p><span class="line-no">04</span>&nbsp;&nbsp;mindset: <span class="syntax-green">'Keep learning'</span>,</p>
+              <p><span class="line-no">05</span>&nbsp;&nbsp;building: <span class="syntax-green">'Useful things'</span></p>
+              <p><span class="line-no">06</span>};<span class="syntax-cursor">▍</span></p>
+            </div>
+            <div class="code-card-foot"><span class="availability-dot"></span> ready to grow <span class="code-foot-right">UTF-8&nbsp; · &nbsp;JavaScript</span></div>
+          </div>
+          <div class="mini-dashboard glass-card">
+            <div class="mini-dashboard-top"><span class="mini-app-icon">S</span><span>SpendWise</span><span class="mini-menu">•••</span></div>
+            <div class="mini-dashboard-label">MONTHLY SPENDING <span>↗</span></div>
+            <strong class="mini-amount">₹ 8,450</strong>
+            <div class="mini-chart" aria-hidden="true"><i style="--h:32%"></i><i style="--h:48%"></i><i style="--h:39%"></i><i style="--h:73%"></i><i style="--h:54%"></i><i style="--h:88%"></i><i style="--h:62%"></i></div>
+            <div class="mini-dashboard-foot"><span><i></i> Needs</span><span><i></i> Wants</span><span><i></i> Save</span></div>
+          </div>
+          <div class="floating-chip chip-top"><span>✳</span> Problem solver</div>
+          <div class="floating-chip chip-bottom"><span class="chip-pulse"></span> Built with curiosity</div>
+        </div>
+      </div>
+      <div class="container hero-bottom"><span>SCROLL TO EXPLORE</span><a href="#about" aria-label="Scroll to About section">↓</a><span class="hero-bottom-line"></span></div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-kicker reveal"><span>01</span><span class="kicker-line"></span><span>ABOUT ME</span></div>
+        <div class="section-intro reveal">
+          <h2>Curious by nature.<br><span class="muted-heading">Practical by design.</span></h2>
+          <p>I’m a fresher on a journey into full-stack development. I like understanding why a problem exists, breaking it into smaller steps, and building an interface that feels simple to use.</p>
+        </div>
+        <div class="about-grid">
+          <article class="about-feature reveal"><div class="feature-icon icon-spark">✳</div><h3>Learn by building</h3><p>I strengthen my fundamentals by creating small projects, experimenting with layouts, and improving with every iteration.</p><span class="feature-index">01 / APPROACH</span></article>
+          <article class="about-feature reveal"><div class="feature-icon icon-code">&lt;/&gt;</div><h3>Care about the details</h3><p>Responsive layouts, clear hierarchy, accessible controls, and readable code all matter to the final experience.</p><span class="feature-index">02 / CRAFT</span></article>
+          <article class="about-feature reveal"><div class="feature-icon icon-target">◎</div><h3>Build for real people</h3><p>My goal is to grow into a full-stack developer and create useful tools for everyday needs.</p><span class="feature-index">03 / DIRECTION</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-kicker reveal"><span>02</span><span class="kicker-line"></span><span>SKILLS & LEARNING</span></div>
+        <div class="section-intro reveal">
+          <h2>The tools I use<br><span class="muted-heading">and the ones I’m learning.</span></h2>
+          <p>I’m growing my skills step by step, starting with front-end foundations and moving toward full-stack development. The labels below distinguish current foundations from my learning path.</p>
+        </div>
+        <div class="skills-layout">
+          <div class="skills-panel reveal">
+            <div class="panel-heading"><h3>Web foundations</h3><span class="status-label"><i></i> PRACTICING</span></div>
+            <div class="skill-row"><div class="skill-name"><span class="skill-symbol html-symbol">5</span><span>HTML5</span></div><span class="skill-state">Page structure</span></div>
+            <div class="skill-row"><div class="skill-name"><span class="skill-symbol css-symbol">✳</span><span>CSS3</span></div><span class="skill-state">Layout & styling</span></div>
+            <div class="skill-row"><div class="skill-name"><span class="skill-symbol js-symbol">JS</span><span>JavaScript</span></div><span class="skill-state">Learning & practice</span></div>
+            <div class="skill-row"><div class="skill-name"><span class="skill-symbol responsive-symbol">▣</span><span>Responsive design</span></div><span class="skill-state">Mobile-first UI</span></div>
+          </div>
+          <div class="skills-panel learning-panel reveal reveal-delay">
+            <div class="panel-heading"><h3>MERN learning path</h3><span class="status-label status-learning">IN PROGRESS</span></div>
+            <div class="stack-grid">
+              <div class="stack-item"><span class="stack-letter react-letter">⚛</span><div><strong>React</strong><small>UI library</small></div><span class="stack-arrow">↗</span></div>
+              <div class="stack-item"><span class="stack-letter node-letter">N</span><div><strong>Node.js</strong><small>JavaScript runtime</small></div><span class="stack-arrow">↗</span></div>
+              <div class="stack-item"><span class="stack-letter express-letter">Ex</span><div><strong>Express</strong><small>Backend framework</small></div><span class="stack-arrow">↗</span></div>
+              <div class="stack-item"><span class="stack-letter mongo-letter">M</span><div><strong>MongoDB</strong><small>Database</small></div><span class="stack-arrow">↗</span></div>
+            </div>
+            <p class="skills-note">Portfolio wording is intentionally beginner-friendly. Update this section as your confidence and project experience grow.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section process-section" id="journey">
+      <div class="container process-layout">
+        <div class="process-title reveal"><div class="section-kicker"><span>03</span><span class="kicker-line"></span><span>MY APPROACH</span></div><h2>Small steps.<br><span class="muted-heading">Meaningful progress.</span></h2><p>My process keeps a project focused on the problem, the person using it, and the next improvement.</p></div>
+        <div class="process-list">
+          <article class="process-step reveal"><span class="step-number">01</span><div><h3>Understand</h3><p>Identify the real problem and who needs the solution.</p></div><span class="step-symbol">⌕</span></article>
+          <article class="process-step reveal"><span class="step-number">02</span><div><h3>Plan the experience</h3><p>Organize the content and make the main task easy to find.</p></div><span class="step-symbol">◇</span></article>
+          <article class="process-step reveal"><span class="step-number">03</span><div><h3>Build responsively</h3><p>Create the page and check how it behaves on different screens.</p></div><span class="step-symbol">&lt;/&gt;</span></article>
+          <article class="process-step reveal"><span class="step-number">04</span><div><h3>Test and improve</h3><p>Try the interactions, notice issues, and refine the result.</p></div><span class="step-symbol">↗</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section work-section" id="work">
+      <div class="container">
+        <div class="section-kicker reveal"><span>04</span><span class="kicker-line"></span><span>SELECTED WORK</span></div>
+        <div class="work-heading reveal"><div><h2>Projects with<br><span class="muted-heading">a purpose.</span></h2></div><p>Concepts and builds that show how I approach common problems. Concept projects are clearly labelled so you can see what is a proposal versus a working page.</p></div>
+        <div class="project-toolbar reveal"><span class="project-count">PORTFOLIO COLLECTION <span>— 03 ITEMS</span></span><div class="project-filters" role="group" aria-label="Filter projects"><button class="filter-button active" type="button" data-filter="all" aria-pressed="true">All work <span>03</span></button><button class="filter-button" type="button" data-filter="build" aria-pressed="false">Built <span>01</span></button><button class="filter-button" type="button" data-filter="concept" aria-pressed="false">Concepts <span>02</span></button></div></div>
+        <div class="projects-grid" id="projects-grid">
+          <article class="project-card project-large reveal" data-project-type="concept">
+            <div class="project-preview spendwise-preview"><div class="preview-browser"><span class="preview-dots"><i></i><i></i><i></i></span><span>spendwise / overview</span><span class="preview-lock">↗</span></div><div class="spendwise-body"><div class="spendwise-sidebar"><b class="spendwise-logo">S<span>.</span></b><i class="side-active">▦</i><i>◷</i><i>⌂</i><i>⚙</i></div><div class="spendwise-content"><span class="preview-overline">YOUR MONEY AT A GLANCE</span><h3>Plan with purpose.</h3><div class="spendwise-metrics"><div><small>MONTHLY BUDGET</small><b>₹ 12,000</b><span>example value</span></div><div><small>SPENT SO FAR</small><b>₹ 8,450</b><span class="metric-positive">70% of budget</span></div></div><div class="spendwise-chart"><div class="chart-title"><b>Spending overview</b><span>Sample data</span></div><div class="chart-bars"><i style="--bar:38%"><small>Mon</small></i><i style="--bar:55%"><small>Tue</small></i><i style="--bar:42%"><small>Wed</small></i><i style="--bar:76%"><small>Thu</small></i><i style="--bar:47%"><small>Fri</small></i><i style="--bar:88%"><small>Sat</small></i><i style="--bar:64%"><small>Sun</small></i></div></div></div></div></div>
+            <div class="project-details"><div class="project-topline"><span class="project-category">01 / PROBLEM-SOLVING CONCEPT</span><span class="concept-badge">CONCEPT</span></div><h3>SpendWise <span>— Simple Expense Planner</span></h3><p>A friendly budget dashboard concept for students who want to understand everyday spending and build better money habits.</p><div class="project-tags"><span>HTML</span><span>CSS</span><span>Responsive UI</span></div><button class="text-link project-open" type="button" data-project="spendwise">Explore case study <span>↗</span></button></div>
+          </article>
+
+          <article class="project-card reveal" data-project-type="build">
+            <div class="project-preview portfolio-preview"><div class="portfolio-preview-nav"><span class="preview-brand">i<span>.</span></span><span>ABOUT&nbsp;&nbsp; WORK&nbsp;&nbsp; CONTACT</span></div><div class="portfolio-preview-copy"><span>HELLO, I'M</span><b>Ishwarya<span>.</span></b><strong>Learner in progress.</strong><div class="preview-pill-row"><i></i><i></i></div></div><div class="portfolio-preview-bottom"><span>THOUGHTFUL DESIGN</span><span>RESPONSIVE BY DEFAULT ↗</span></div></div>
+            <div class="project-details"><div class="project-topline"><span class="project-category">02 / PERSONAL WEBSITE</span><span class="built-badge">BUILT</span></div><h3>Developer Portfolio</h3><p>This portfolio: a responsive personal website with a theme switcher, mobile navigation, project filters, and interactive case studies.</p><div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><button class="text-link project-open" type="button" data-project="portfolio">Explore case study <span>↗</span></button></div>
+          </article>
+
+          <article class="project-card reveal" data-project-type="concept">
+            <div class="project-preview studysprint-preview"><div class="study-preview-head"><span class="study-logo">S<span>+</span></span><span class="study-hello">YOUR STUDY SPACE</span><span class="study-avatar">I</span></div><div class="study-preview-main"><div class="study-main-copy"><span class="study-label">A LITTLE PROGRESS EVERY DAY</span><b>Make time<br>for your goals.</b><p>One clear next step is enough to begin.</p><span class="study-cta">View today's plan <i>↗</i></span></div><div class="study-checklist"><span>THIS WEEK <b>02/04</b></span><div><i class="checked">✓</i><span>Revise HTML basics</span></div><div><i class="checked">✓</i><span>Practice CSS layout</span></div><div><i></i><span>Learn JavaScript</span></div><div><i></i><span>Build a mini project</span></div></div></div></div>
+            <div class="project-details"><div class="project-topline"><span class="project-category">03 / STUDENT PRODUCTIVITY CONCEPT</span><span class="concept-badge">CONCEPT</span></div><h3>StudySprint <span>— Study Planner</span></h3><p>A lightweight study planning interface concept to help learners break large goals into smaller, trackable tasks.</p><div class="project-tags"><span>UX thinking</span><span>HTML</span><span>CSS</span></div><button class="text-link project-open" type="button" data-project="studysprint">Explore case study <span>↗</span></button></div>
+          </article>
+        </div>
+        <p class="project-footnote"><span>NOTE</span> SpendWise and StudySprint are UI concepts, not deployed apps. They are shown as problem-solving proposals; their data and charts are illustrative.</p>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-kicker reveal"><span>05</span><span class="kicker-line"></span><span>LET’S CONNECT</span></div>
+        <div class="contact-layout">
+          <div class="contact-copy reveal"><p class="eyebrow">HAVE AN OPPORTUNITY?</p><h2>Let’s build<br><span class="muted-heading">something useful.</span></h2><p>I’m open to entry-level opportunities, internships, feedback, and conversations about web development. Drop me a message.</p><div class="contact-direct"><span class="contact-direct-icon">✉</span><div><small>EMAIL ME DIRECTLY</small><a href="mailto:ishwaryavenkatesh246@gmail.com" id="email-text">ishwaryavenkatesh246@gmail.com</a></div><button type="button" class="copy-button" id="copy-email" aria-label="Copy email address" title="Copy email address"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2"></rect><path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3"></path></svg></button></div></div>
+          <form class="contact-form reveal reveal-delay" id="contact-form">
+            <div class="form-heading"><h3>Send a message</h3><span><i></i> Usually open to chat</span></div>
+            <label for="name">Your name</label><input id="name" name="name" type="text" placeholder="e.g. Alex Kumar" autocomplete="name" required minlength="2">
+            <label for="sender-email">Your email</label><input id="sender-email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required>
+            <label for="message">What would you like to discuss?</label><textarea id="message" name="message" rows="4" placeholder="Tell me a little about your idea or opportunity..." required minlength="10"></textarea>
+            <button class="button button-primary submit-button" type="submit">Prepare email <span aria-hidden="true">↗</span></button>
+            <p class="form-note" id="form-status" aria-live="polite">This form opens your email app with a drafted message; it does not send or store messages on a server.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-main"><a class="brand footer-brand" href="#top"><span class="brand-mark">i<span>.</span></span><span class="brand-name">ishwarya<span class="brand-role">/ learner</span></span></a><p>Made with focus, curiosity, and code.</p><a href="#top" class="back-to-top">BACK TO TOP ↑</a></div>
+    <div class="container footer-bottom"><span>© <span id="current-year"></span> Ishwarya. All rights reserved.</span><span>HTML <i>·</i> CSS <i>·</i> JavaScript</span></div>
+  </footer>
+
+  <div class="modal-backdrop" id="project-modal" hidden>
+    <section class="project-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-describedby="modal-description">
+      <button class="modal-close" id="modal-close" type="button" aria-label="Close project details">×</button>
+      <p class="eyebrow" id="modal-kicker">CASE STUDY</p><h2 id="modal-title">Project title</h2><p class="modal-description" id="modal-description"></p>
+      <div class="modal-info-grid"><div><span>THE PROBLEM</span><p id="modal-problem"></p></div><div><span>THE APPROACH</span><p id="modal-approach"></p></div><div><span>STATUS</span><p id="modal-status"></p></div><div><span>TECHNOLOGIES</span><p id="modal-tech"></p></div></div>
+      <button class="button button-primary modal-contact" id="modal-contact" type="button">Discuss a project <span>↗</span></button>
+    </section>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
